@@ -289,6 +289,7 @@ p {
   }
 
   #item2 {
+
     grid-row: 1;
     /* fila1 */
     grid-column-start: 2;
@@ -619,7 +620,7 @@ p {
   /*************************************************************************************/
   /* navbar */
   #item2 {
-    background-color: #222;
+    background-color: rgb(83, 83, 83);
     grid-row: 2;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -850,5 +851,9 @@ p {
     text-align: center;
     font-size: 13px;
     color: darkgoldenrod;
+  }
+  .banner img
+  {
+    display: none;
   }
 }
